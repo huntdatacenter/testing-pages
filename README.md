@@ -64,3 +64,4 @@ tox
 You can search up and use MDI icons inside components:
 
 - https://pictogrammers.com/library/mdi/
+
