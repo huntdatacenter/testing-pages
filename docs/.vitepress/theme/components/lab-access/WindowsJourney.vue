@@ -52,10 +52,12 @@ const guidingOptions = ref([
   { text: 'Lab migration', value: 'lab_migration' },
 ])
 const filterGuidesByType = ref(null)
-const incIndices = ref({})
 
 // Template refs
 const sshConfigRef = ref(null)
+
+// incIndices is not a reactive variable so no need to use ref()
+let incIndices = {}
 
 // Computed properties
 const cfgShow = computed(() =>
@@ -187,10 +189,11 @@ const testHosts = () => {
 
 const getNextItem = (groupId, reset = false) => {
   const groupKey = `group-${groupId}`
-  if (reset || !incIndices.value || !incIndices.value[groupKey]) {
-    incIndices.value[groupKey] = 0
+  if (reset || !incIndices[groupKey]) {
+    incIndices[groupKey] = 0
   }
-  const itemId = ++incIndices.value[groupKey]
+  const itemId = ++incIndices[groupKey]
+  console.log(`${groupId}.${itemId}.`)
   return `${groupId}.${itemId}.`
 }
 
