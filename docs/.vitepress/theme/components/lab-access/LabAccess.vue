@@ -135,10 +135,6 @@ const getCurrentUrl = computed(() => {
   return !ISSERVER ? window.location.href : ""
 })
 
-const getOrigin = computed(() => {
-  return !ISSERVER ? window.location.origin : ""
-})
-
 // Methods
 const migrationMapping = async () => {
   try {
@@ -388,7 +384,7 @@ const onAnchorHover = async value => {
               </v-row>
               <v-row justify="center">
                 <v-col align="center">
-                  <img alt="Illustration of a robot" :src="`${getOrigin}/img/hunt-cloud_bot_250_2.png`" />
+                  <img alt="Illustration of a robot" src="/img/hunt-cloud_bot_250_2.png" />
                 </v-col>
               </v-row>
             </v-tabs-window-item>
