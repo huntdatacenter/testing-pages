@@ -26,14 +26,14 @@ footerHtml: false
     </div>
     <div class="hc-row">
       <div class="hc-column-4">
-        <a href="/do-science/"><img alt="Illustration of laboratory glass bottle with yellow shimmery substance." height="150" src="/img/hunt-cloud_bottle_250.png" /></a>
+        <a href="/do-science/"><img alt="Illustration of laboratory glass bottle with yellow shimmery substance." height="150" src="./images/hunt-cloud_bottle_250.png" /></a>
         <VuetifyButton id="btn1" class="hc-btn" color="black--text" label="Do science" href="/do-science/" block />
         <p>
           Scientists are explorers. This section is aimed at those who use data to discover knowledge for a better world in HUNT Cloud.
         </p>
       </div>
       <div class="hc-column-4">
-        <a href="/administer-science/"><img alt="Illustration of decorative hand-made golden key with purple gem stones." height="150" src="/img/hunt-cloud_key_250.png" /></a>
+        <a href="/administer-science/"><img alt="Illustration of decorative hand-made golden key with purple gem stones." height="150" src="./images/hunt-cloud_key_250.png" /></a>
         <VuetifyButton id="btn2" class="hc-btn" color="black--text" label="Administer science" href="/administer-science/" block />
         <p>
           Scientific administrators are keymakers. This section is aimed at administrators that enables scientific explorations.
@@ -55,7 +55,7 @@ footerHtml: false
         </p>
       </div>
       <div class="hc-column-4">
-         <a href="/about/"><img alt="Illustration of small centien robot made of metal with shiny lightbulb on top of its head." height="200" src="/img/hunt-cloud_bot_250_2.png" /></a>
+         <a href="/about/"><img alt="Illustration of small centien robot made of metal with shiny lightbulb on top of its head." height="200" src="./images/hunt-cloud_bot_250_2.png" /></a>
       </div>
       <div class="hc-column-4">
         <VuetifyButton id="btn3" class="hc-btn" color="black--text" label="Scientific products" href="https://www.ntnu.edu/mh/huntcloud" block />
