@@ -40,7 +40,7 @@ footerHtml: false
         </p>
       </div>
       <div class="hc-column-4">
-        <a href="/govern-science/"><img alt="Illustration of sundial compass in brass." height="150" src="/img/hunt-cloud_compass_250.png" /></a>
+        <a href="/govern-science/"><img alt="Illustration of sundial compass in brass." height="150" src="./images/hunt-cloud_compass_250.png" /></a>
         <VuetifyButton id="btn3" class="hc-btn" color="black--text" label="Govern science" href="/govern-science/" block />
         <p>
           Trust enables science. This section is aimed at data controllers and scientific centers that guides the development of HUNT Cloud.
