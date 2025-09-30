@@ -193,7 +193,6 @@ const getNextItem = (groupId, reset = false) => {
     incIndices[groupKey] = 0
   }
   const itemId = ++incIndices[groupKey]
-  console.log(`${groupId}.${itemId}.`)
   return `${groupId}.${itemId}.`
 }
 
